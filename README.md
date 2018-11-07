@@ -13,4 +13,9 @@
 3. Customize output folder
 
 4. Install Bootstrap version 4+
+
    > npm install bootstrap@latest
+
+5. Add new component "Core"
+   > ng g component core
+   > (or > ng generate component core)

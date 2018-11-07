@@ -58,3 +58,6 @@
       > ng g component core/components/menubar
 
 11.1 Update menubar layout - refer to images '0011-1' in tutorials folder
+
+12. Update website Name(Title) & Meta at Index.html
+    - refer to images '0012' in tutorials folder

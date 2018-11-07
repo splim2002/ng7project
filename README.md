@@ -56,3 +56,5 @@
 
     - Command to create "Menubar" component in CoreModule
       > ng g component core/components/menubar
+
+11.1 Update menubar layout - refer to images '0011-1' in tutorials folder

@@ -22,4 +22,10 @@
    > (or > ng generate component core)
 
 6. Add new component "Products"
+
    > ng g component products
+
+7. Customize app-routing
+   - Default URL shows ProductComponent, else (try to edit the URL in browser) it shows CoreComponent (refer to images in tutorials folder)
+   - Command to build & start a web server
+     > ng serve

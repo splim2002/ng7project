@@ -64,5 +64,12 @@
     - refer to images '0012' in tutorials folder
 
 13. Create new module "Home" (with routing)
+
     - Command to create "Home" module
       > ng g module home --routing
+
+14. Add new component "Default"(page) to HomeModule
+
+    - This component will be set as the default page (home page)
+    - Command to create "Default"(page) component in HomeModule
+      > ng g component home/pages/default

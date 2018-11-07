@@ -60,4 +60,9 @@
 11.1 Update menubar layout - refer to images '0011-1' in tutorials folder
 
 12. Update website Name(Title) & Meta at Index.html
+
     - refer to images '0012' in tutorials folder
+
+13. Create new module "Home" (with routing)
+    - Command to create "Home" module
+      > ng g module home --routing

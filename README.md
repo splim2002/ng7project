@@ -81,4 +81,10 @@
     - refer to images '0014-1' in tutorials folder
 
 15. Menubar: Add routerLink & routerLinkActive
+
     - refer to images '0015' in tutorials folder
+
+16. Remove ProductsComponent. Instead, we create new Module (ProductModule) and store components that related to it.
+
+    - Command to create "Product" module
+      > ng g module product --routing

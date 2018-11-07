@@ -9,6 +9,10 @@ const routes: Routes = [
     component: ProductsComponent
   },
   {
+    path: 'home',
+    loadChildren: './home/home.module#HomeModule'
+  },
+  {
     path: '**',
     component: PageNotFoundComponent
   }

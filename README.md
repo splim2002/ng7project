@@ -73,3 +73,9 @@
     - This component will be set as the default page (home page)
     - Command to create "Default"(page) component in HomeModule
       > ng g component home/pages/default
+
+14.1 Add LazyLoading to load HomeModule at routing
+
+    - Reference: https://scotch.io/tutorials/lazy-loading-in-angular-v2
+    - Custmize URL route 'http://..../home' to load HomeModule
+    - refer to images '0014-1' in tutorials folder

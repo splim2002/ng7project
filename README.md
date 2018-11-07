@@ -17,5 +17,9 @@
    > npm install bootstrap@latest
 
 5. Add new component "Core"
+
    > ng g component core
    > (or > ng generate component core)
+
+6. Add new component "Products"
+   > ng g component products

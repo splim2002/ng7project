@@ -51,3 +51,8 @@
     - refer to images '0010' in tutorials folder
 
 10.1 Update Header Layout (HTML & CSS) - refer to images '0010-1' in tutorials folder
+
+11. Add new component "MenuBar" to CoreModule
+
+    - Command to create "Menubar" component in CoreModule
+      > ng g component core/components/menubar

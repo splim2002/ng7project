@@ -79,3 +79,6 @@
     - Reference: https://scotch.io/tutorials/lazy-loading-in-angular-v2
     - Custmize URL route 'http://..../home' to load HomeModule
     - refer to images '0014-1' in tutorials folder
+
+15. Menubar: Add routerLink & routerLinkActive
+    - refer to images '0015' in tutorials folder

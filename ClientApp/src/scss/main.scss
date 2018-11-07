@@ -39,8 +39,8 @@ header{
 }
 
 // MenuBar
-nav{
-  background: $secondary-darker-color;
+.nav-menu{
+  background: $secondary-color;
   color: #fff;
 
   a{
@@ -63,6 +63,10 @@ nav{
       text-align: center;
       white-space: nowrap;
       -webkit-overflow-scrolling: touch;
+    }
+
+    a.active{
+      background-color: $secondary-darker-color;
     }
   }
 }

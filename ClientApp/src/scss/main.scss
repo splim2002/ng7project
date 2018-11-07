@@ -9,9 +9,24 @@ body {
   font-family: $fontfamily-1;
 }
 
+// COMMON
+a{
+  outline: none;
+}
+a:hover{
+  color: inherit;
+  text-decoration: unset;
+}
+
+
+// LAYOUT
 header{
   background: $primary-darker-color;
   color: #fff;
+
+  a{
+    color: #fff;
+  }
 }
 
 .footer{
@@ -22,4 +37,5 @@ header{
   line-height: 60px;
   background-color: #f5f5f5;
 }
+
 

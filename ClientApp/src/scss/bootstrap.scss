@@ -1,0 +1,16 @@
+@import "mixins";
+@import "variables";
+
+//Overwrite bootstrap default CSS
+.btn-primary{
+  color: #fff;
+  background-color: $primary-color;
+  border-color: $primary-color;
+
+  &:hover, &:active{
+    color: #fff;
+    background-color: $primary-darker-color;
+    border-color: $primary-darker-color;
+  }
+}
+

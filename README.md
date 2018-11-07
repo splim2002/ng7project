@@ -44,7 +44,10 @@
    - refer to images '0009' in tutorials folder
 
 10. Add new component "Header" to CoreModule
+
     - To ensure it can be used by other module (such as AppModule), must declare it at 'export' list in CoreModule
     - Command to create "Header" component in CoreModule
       > ng g component core/components/header
     - refer to images '0010' in tutorials folder
+
+10.1 Update Header Layout (HTML & CSS) - refer to images '0010-1' in tutorials folder

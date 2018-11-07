@@ -32,7 +32,13 @@
      > ng serve
 
 8. Change CoreComponent to CoreModule. Create "Page not found".
+
    - Update app-routing by replace CoreComponent to PageNotFoundComponent.
    - Command to create "Page not found" component in CoreModule
      > ng g component core/pages/page-not-found
      - refer to images '0008' in tutorials folder
+
+9. Customize layout & SCSS (CSS styling)
+
+   - Use bootstrap CSS class
+   - refer to images '0009' in tutorials folder

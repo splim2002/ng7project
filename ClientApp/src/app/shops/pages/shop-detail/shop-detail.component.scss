@@ -1,0 +1,11 @@
+
+agm-map{
+  width: 100%;
+}
+
+:host ::ng-deep {
+  .agm-map-container-inner{
+    padding-bottom: 100% !important;
+  }
+}
+

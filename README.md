@@ -126,3 +126,9 @@ GOOGLE MAP
 21. Update ShopList layout. Customize routing (URL) to ShopDetailComponent
 
     - refer to images '0021.1' & '0021.2' in tutorials folder
+
+22. Add Google Map (@agm/core) to ShopDetail
+
+    - Customize environments settings for GoogleMapApiKey
+    - Use <agm-map>. Set a latitude & longitude + map zoom
+    - Reference (Demo): https://stackblitz.com/edit/angular-google-maps-demo?file=app%2Fapp.module.ts

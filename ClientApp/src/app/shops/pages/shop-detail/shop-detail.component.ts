@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./shop-detail.component.scss']
 })
 export class ShopDetailComponent implements OnInit {
+  // initial center position for the map
+  lat = 51.673858;
+  lng = 7.815982;
 
-  constructor() { }
+  // google maps zoom level
+  zoom = 8;
 
-  ngOnInit() {
-  }
+  constructor() {}
 
+  ngOnInit() {}
 }

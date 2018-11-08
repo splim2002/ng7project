@@ -151,3 +151,7 @@ GOOGLE MAP
 23.2 Add custom marker by using iconUrl in agm-map
 
     - refer to images '0023-2' in tutorials folder
+
+23.3 Customize size of custom marker
+
+    - refer to images '0023-3' in tutorials folder

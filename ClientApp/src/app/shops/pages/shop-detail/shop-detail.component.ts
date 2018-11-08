@@ -15,7 +15,13 @@ export class ShopDetailComponent implements OnInit {
   zoom = 8;
 
   // Custom marker
-  markerIcon = require('../../../../assets/images/map-icons/grey-marker.png');
+  markerIcon = {
+    url: require('../../../../assets/images/map-icons/grey-marker.png'),
+    scaledSize: {
+      height: 48,
+      width: 30
+    }
+  };
 
   constructor() {}
 

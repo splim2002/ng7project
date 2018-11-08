@@ -93,3 +93,8 @@
 
     - Command to create "Shops" module
       > ng g module shops --routing
+
+18. Add new component "ShopList"(page) to ShopsModule
+
+    - Command:
+      > ng g component shops/pages/shop-list

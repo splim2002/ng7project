@@ -104,3 +104,16 @@
     - Customize URL route 'http://..../shop' to load ShopsModule (Lazyloading to ShopsModule at AppRouting)
     - Then, default route in ShopsRouting is calling ShopListComponent
     - refer to images '0018-1' in tutorials folder
+
+===================================================================
+GOOGLE MAP
+===================================================================
+
+19. Integration with Google Map - Use @agm/core
+
+    - NPM: https://www.npmjs.com/package/@agm/core
+    - Documentation:
+      - https://angular-maps.com/api-docs/agm-core/index.html
+      - https://angular-maps.com/api-docs/agm-core/components/agmmap
+    - Installation
+      > npm i @agm/core

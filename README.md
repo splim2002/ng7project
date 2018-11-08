@@ -137,3 +137,9 @@ GOOGLE MAP
 22.1 Add marker to map
 
     - refer to images '0022-1' in tutorials folder
+
+22.2 Add new component "MapSimple" to ShopsModule
+
+    - [Explaination] I wanna try out different types(/features) of Maps. Hence, I decided to create sub-components for those maps. I would advice to create a sub-module to store the google map components so that it functions as a 'shared module' and is usable by other modules. But, as I'm going to use Google map in this ShopsModule only... so you know, save my work :p
+    - Command:
+      > ng g component shops/maps/map-simple

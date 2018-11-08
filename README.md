@@ -88,3 +88,8 @@
 
     - Command to create "Product" module
       > ng g module product --routing
+
+17. Create new module "Shops" (with routing)
+
+    - Command to create "Shops" module
+      > ng g module shops --routing

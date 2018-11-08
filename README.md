@@ -122,3 +122,7 @@ GOOGLE MAP
 
     - Command:
       > ng g component shops/pages/shop-detail
+
+21. Update ShopList layout. Customize routing (URL) to ShopDetailComponent
+
+    - refer to images '0021.1' & '0021.2' in tutorials folder

@@ -4,13 +4,13 @@
 //Overwrite bootstrap default CSS
 .btn-primary{
   color: #fff;
-  background-color: $primary-color;
-  border-color: $primary-color;
+  background-color: $primary-darker-color;
+  border-color: $primary-darker-color;
 
   &:hover, &:active{
     color: #fff;
-    background-color: $primary-darker-color;
-    border-color: $primary-darker-color;
+    background-color: $primary-color;
+    border-color: $primary-color;
   }
 }
 

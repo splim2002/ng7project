@@ -15,5 +15,8 @@ export class MapSimpleComponent {
   @Input()
   myZoom: number;
 
+  @Input()
+  myWindowInfo: string;
+
   constructor() {}
 }

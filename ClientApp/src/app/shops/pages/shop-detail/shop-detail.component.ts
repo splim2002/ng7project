@@ -9,6 +9,7 @@ export class ShopDetailComponent implements OnInit {
   // initial center position for the map
   lat = 51.673858;
   lng = 7.815982;
+  locationInfo = 'My shop ABC';
 
   // google maps zoom level
   zoom = 8;

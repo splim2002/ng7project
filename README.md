@@ -132,3 +132,8 @@ GOOGLE MAP
     - Customize environments settings for GoogleMapApiKey
     - Use <agm-map>. Set a latitude & longitude + map zoom
     - Reference (Demo): https://stackblitz.com/edit/angular-google-maps-demo?file=app%2Fapp.module.ts
+    - refer to images '0022' in tutorials folder
+
+22.1 Add marker to map
+
+    - refer to images '0022-1' in tutorials folder

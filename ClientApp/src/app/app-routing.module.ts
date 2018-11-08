@@ -13,6 +13,10 @@ const routes: Routes = [
     loadChildren: './home/home.module#HomeModule'
   },
   {
+    path: 'shop',
+    loadChildren: './shops/shops.module#ShopsModule'
+  },
+  {
     path: '**',
     component: PageNotFoundComponent
   }

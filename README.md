@@ -98,3 +98,9 @@
 
     - Command:
       > ng g component shops/pages/shop-list
+
+18.1 Customize routing to (ShopsModule) ShopListComponent
+
+    - Customize URL route 'http://..../shop' to load ShopsModule (Lazyloading to ShopsModule at AppRouting)
+    - Then, default route in ShopsRouting is calling ShopListComponent
+    - refer to images '0018-1' in tutorials folder

@@ -18,5 +18,8 @@ export class MapSimpleComponent {
   @Input()
   myWindowInfo: string;
 
+  @Input()
+  myIcon: string;
+
   constructor() {}
 }

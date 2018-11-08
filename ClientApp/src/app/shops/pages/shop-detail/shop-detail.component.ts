@@ -14,6 +14,9 @@ export class ShopDetailComponent implements OnInit {
   // google maps zoom level
   zoom = 8;
 
+  // Custom marker
+  markerIcon = require('../../../../assets/images/map-icons/grey-marker.png');
+
   constructor() {}
 
   ngOnInit() {}

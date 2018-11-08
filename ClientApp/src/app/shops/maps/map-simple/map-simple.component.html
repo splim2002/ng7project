@@ -1,12 +1,9 @@
 <agm-map [latitude]="myLat" [longitude]="myLng" [zoom]="myZoom">
-  <agm-marker [latitude]="myLat" [longitude]="myLng">
+  <agm-marker [latitude]="myLat" [longitude]="myLng" [iconUrl]="myIcon">
     <ng-container *ngIf="myWindowInfo">
       <agm-info-window>
         <strong>{{myWindowInfo}}</strong>
       </agm-info-window>
     </ng-container>
   </agm-marker>
-
-
-
 </agm-map>

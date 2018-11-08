@@ -147,3 +147,7 @@ GOOGLE MAP
 23.1 Add Window Information to Map Marker (when click on it)
 
     - refer to images '0023-1' in tutorials folder
+
+23.2 Add custom marker by using iconUrl in agm-map
+
+    - refer to images '0023-2' in tutorials folder

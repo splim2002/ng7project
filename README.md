@@ -117,3 +117,8 @@ GOOGLE MAP
       - https://angular-maps.com/api-docs/agm-core/components/agmmap
     - Installation
       > npm i @agm/core
+
+20. Add new component "ShopDetail"(page) to ShopsModule.
+
+    - Command:
+      > ng g component shops/pages/shop-detail

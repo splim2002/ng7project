@@ -115,3 +115,15 @@ Plugin (NPM): https://www.npmjs.com/package/@embedded-enterprises/ng6-golden-lay
 > npm install --save-dev @types/jquery
 
 Official Website: http://golden-layout.com/
+
+#Golden-001: Create new module "GoldenMdi" (with routing)
+
+- Command to create module
+  > ng g module golden-mdi --routing
+
+#Golden-002: Add new component "Dashboard"(page) to GoldenMdiModule
+
+- Command to create component
+  > ng g c golden-mdi/pages/dashboard
+- Custmize routing
+- refer to images 'Golden-002' in tutorials folder

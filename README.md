@@ -104,3 +104,14 @@
     - Customize URL route 'http://..../shop' to load ShopsModule (Lazyloading to ShopsModule at AppRouting)
     - Then, default route in ShopsRouting is calling ShopListComponent
     - refer to images '0018-1' in tutorials folder
+
+==========================================================================
+MDI - Using 'Golden Layout'
+==========================================================================
+Plugin (NPM): https://www.npmjs.com/package/@embedded-enterprises/ng6-golden-layout
+
+> npm install --save @embedded-enterprises/ng6-golden-layout
+> npm install --save golden-layout@1.5.7 jquery
+> npm install --save-dev @types/jquery
+
+Official Website: http://golden-layout.com/

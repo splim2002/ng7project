@@ -115,3 +115,8 @@ Demo: https://tiberiuzuld.github.io/angular-gridster2/
 Installation:
 
 > npm install angular-gridster2 --save
+
+#Gridster-001: Create new module "DragDropGridster" (with routing)
+
+- Command
+  > ng g m drag-drop-gridster --routing

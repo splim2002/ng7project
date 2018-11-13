@@ -120,3 +120,11 @@ Installation:
 
 - Command
   > ng g m drag-drop-gridster --routing
+- Custmize routing at AppRouting (LazyLoading)
+
+#Gridster-002: Add new component "Default"(page) to DragDropGridsterModule
+
+- Command
+  > ng g c drag-drop-gridster/pages/default
+- Custmize routing
+- refer to images 'Gridster-002' in tutorials folder

@@ -128,3 +128,5 @@ Installation:
   > ng g c drag-drop-gridster/pages/default
 - Custmize routing
 - refer to images 'Gridster-002' in tutorials folder
+
+#Gridster-003: Import GridsterModule (angular-gridster2) to DragDropGridsterModule

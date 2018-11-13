@@ -104,3 +104,14 @@
     - Customize URL route 'http://..../shop' to load ShopsModule (Lazyloading to ShopsModule at AppRouting)
     - Then, default route in ShopsRouting is calling ShopListComponent
     - refer to images '0018-1' in tutorials folder
+
+==========================================================
+Install Angular-gridster2
+==========================================================
+Plugin (NPM): https://www.npmjs.com/package/angular-gridster2
+Github: https://github.com/tiberiuzuld/angular-gridster2
+Demo: https://tiberiuzuld.github.io/angular-gridster2/
+
+Installation:
+
+> npm install angular-gridster2 --save

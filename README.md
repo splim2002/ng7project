@@ -130,3 +130,9 @@ Installation:
 - refer to images 'Gridster-002' in tutorials folder
 
 #Gridster-003: Import GridsterModule (angular-gridster2) to DragDropGridsterModule
+
+#Gridster-004: Start to customize Grids
+
+- GridsterConfig - this is settings for the gridster
+  sample doc: https://github.com/tiberiuzuld/angular-gridster2/blob/master/projects/angular-gridster2/src/lib/gridsterConfig.constant.ts
+- GridsterItem - Items should be placed in the grid

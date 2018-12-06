@@ -180,4 +180,35 @@ Official Website: http://golden-layout.com/
 - Custmize routing
 - refer to images 'Golden-002' in tutorials folder
 
-==========================================================================
+==========================================================
+Install Angular-gridster2
+==========================================================
+Plugin (NPM): https://www.npmjs.com/package/angular-gridster2
+Github: https://github.com/tiberiuzuld/angular-gridster2
+Demo: https://tiberiuzuld.github.io/angular-gridster2/
+
+Installation:
+
+> npm install angular-gridster2 --save
+
+#Gridster-001: Create new module "DragDropGridster" (with routing)
+
+- Command
+  > ng g m drag-drop-gridster --routing
+- Custmize routing at AppRouting (LazyLoading)
+
+#Gridster-002: Add new component "Default"(page) to DragDropGridsterModule
+
+- Command
+  > ng g c drag-drop-gridster/pages/default
+- Custmize routing
+- refer to images 'Gridster-002' in tutorials folder
+
+#Gridster-003: Import GridsterModule (angular-gridster2) to DragDropGridsterModule
+
+#Gridster-004: Start to customize Grids
+
+- GridsterConfig - this is settings for the gridster
+  sample doc: https://github.com/tiberiuzuld/angular-gridster2/blob/master/projects/angular-gridster2/src/lib/gridsterConfig.constant.ts
+- GridsterItem - Items should be placed in the grid
+=======

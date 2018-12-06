@@ -1,0 +1,7 @@
+<p>(Gridster) default works!</p>
+
+<gridster [options]="gridOptions">
+  <gridster-item [item]="item" *ngFor="let item of gridItems; let i = index">
+    <div>Item {{ i }}</div>
+  </gridster-item>
+</gridster>

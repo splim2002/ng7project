@@ -17,6 +17,10 @@ const routes: Routes = [
     loadChildren: './shops/shops.module#ShopsModule'
   },
   {
+    path: 'gridster',
+    loadChildren: './drag-drop-gridster/drag-drop-gridster.module#DragDropGridsterModule'
+  },
+  {
     path: 'golden',
     loadChildren: './golden-mdi/golden-mdi.module#GoldenMdiModule'
   },

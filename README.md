@@ -105,6 +105,58 @@
     - Then, default route in ShopsRouting is calling ShopListComponent
     - refer to images '0018-1' in tutorials folder
 
+===================================================================
+GOOGLE MAP
+===================================================================
+
+19. Integration with Google Map - Use @agm/core
+
+    - NPM: https://www.npmjs.com/package/@agm/core
+    - Documentation:
+      - https://angular-maps.com/api-docs/agm-core/index.html
+      - https://angular-maps.com/api-docs/agm-core/components/agmmap
+    - Installation
+      > npm i @agm/core
+
+20. Add new component "ShopDetail"(page) to ShopsModule.
+
+    - Command:
+      > ng g component shops/pages/shop-detail
+
+21. Update ShopList layout. Customize routing (URL) to ShopDetailComponent
+
+    - refer to images '0021.1' & '0021.2' in tutorials folder
+
+22. Add Google Map (@agm/core) to ShopDetail
+
+    - Customize environments settings for GoogleMapApiKey
+    - Use <agm-map>. Set a latitude & longitude + map zoom
+    - Reference (Demo): https://stackblitz.com/edit/angular-google-maps-demo?file=app%2Fapp.module.ts
+    - refer to images '0022' in tutorials folder
+
+22.1 Add marker to map
+
+    - refer to images '0022-1' in tutorials folder
+
+23. Add new component "MapSimple" to ShopsModule
+
+    - [Explaination] I wanna try out different types(/features) of Maps. Hence, I decided to create sub-components for those maps. I would advice to create a sub-module to store the google map components so that it functions as a 'shared module' and is usable by other modules. But, as I'm going to use Google map in this ShopsModule only... so you know, save my work :p
+    - Command:
+      > ng g component shops/maps/map-simple
+
+23.1 Add Window Information to Map Marker (when click on it)
+
+    - refer to images '0023-1' in tutorials folder
+
+23.2 Add custom marker by using iconUrl in agm-map
+
+    - refer to images '0023-2' in tutorials folder
+
+23.3 Customize size of custom marker
+
+    - refer to images '0023-3' in tutorials folder
+
+
 ==========================================================================
 MDI - Using 'Golden Layout'
 ==========================================================================
@@ -127,3 +179,5 @@ Official Website: http://golden-layout.com/
   > ng g c golden-mdi/pages/dashboard
 - Custmize routing
 - refer to images 'Golden-002' in tutorials folder
+
+==========================================================================

@@ -18,8 +18,11 @@ const routes: Routes = [
   },
   {
     path: 'gridster',
-    loadChildren:
-      './drag-drop-gridster/drag-drop-gridster.module#DragDropGridsterModule'
+    loadChildren: './drag-drop-gridster/drag-drop-gridster.module#DragDropGridsterModule'
+  },
+  {
+    path: 'golden',
+    loadChildren: './golden-mdi/golden-mdi.module#GoldenMdiModule'
   },
   {
     path: '**',

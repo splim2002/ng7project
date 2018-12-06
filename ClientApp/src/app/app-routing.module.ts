@@ -17,6 +17,10 @@ const routes: Routes = [
     loadChildren: './shops/shops.module#ShopsModule'
   },
   {
+    path: 'golden',
+    loadChildren: './golden-mdi/golden-mdi.module#GoldenMdiModule'
+  },
+  {
     path: '**',
     component: PageNotFoundComponent
   }

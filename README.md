@@ -155,3 +155,29 @@ GOOGLE MAP
 23.3 Customize size of custom marker
 
     - refer to images '0023-3' in tutorials folder
+
+
+==========================================================================
+MDI - Using 'Golden Layout'
+==========================================================================
+Plugin (NPM): https://www.npmjs.com/package/@embedded-enterprises/ng6-golden-layout
+
+> npm install --save @embedded-enterprises/ng6-golden-layout
+> npm install --save golden-layout@1.5.7 jquery
+> npm install --save-dev @types/jquery
+
+Official Website: http://golden-layout.com/
+
+#Golden-001: Create new module "GoldenMdi" (with routing)
+
+- Command to create module
+  > ng g module golden-mdi --routing
+
+#Golden-002: Add new component "Dashboard"(page) to GoldenMdiModule
+
+- Command to create component
+  > ng g c golden-mdi/pages/dashboard
+- Custmize routing
+- refer to images 'Golden-002' in tutorials folder
+
+==========================================================================
